@@ -10,7 +10,7 @@ String lerConsole(String message){
   return line ?? "";
 }
 
-double lerConsoleDouble(message){
+double lerConsoleDouble(String message){
     var lado1 = double.tryParse(lerConsole("Digite o primeiro lado: "));
     return lado1?? 0.0;
 }
